@@ -1,14 +1,14 @@
-# count=0
-# sum_number= 0
-# while True :
-#     a=int(input("enter a number"))
-#     if a<=0 :
-#         break
-#     count+=1
-#     sum_number+=a    
-#     if count>0 :
-#         average= sum_number / a
-#         print(average)
+count=0
+sum_number= 0
+while True :
+    a=int(input("enter a number"))
+    if a<=0 :
+        break
+    count+=1
+    sum_number+=a    
+    if count>0 :
+        average= sum_number / count
+        print(average)
 
 
 
